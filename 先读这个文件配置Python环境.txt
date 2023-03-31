@@ -1,0 +1,11 @@
+1. 终端运行以下命令，以新建环境
+1.0 终端中进入目录./Python_tutorial_for_seismology
+1.1 新建环境
+conda create -n seismopy python=3.10
+1.2 激活环境
+conda activate seismopy
+1.3 安装依赖包
+pip install -r requirements.txt
+2. 测试是否安装成功
+运行以下命令，如果不报错就是安装成功
+python Python地震学.py
